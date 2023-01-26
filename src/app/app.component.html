@@ -1,0 +1,27 @@
+<h1 id="tableLabel">Registro de empleados</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!empleados"><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationangular">https://aka.ms/jspsintegrationangular</a> for more details.</em></p>
+
+<table *ngIf="empleados">
+    <thead>
+        <tr>
+            <th>Cedula</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Fecha de nacimiento</th>
+            <th>Cargo</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let empleado of empleados">
+            <td>{{ empleados.Cedula }}</td>
+            <td>{{ empleados.Nombres }}</td>
+            <td>{{ empleados.FechaNacimiento }}</td>
+            <td>{{ empleados.Cargo}}</td>
+            <td>{{ empleados.Email}}</td>
+        </tr>
+    </tbody>
+</table>

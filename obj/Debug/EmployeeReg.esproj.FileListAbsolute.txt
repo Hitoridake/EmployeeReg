@@ -1,0 +1,2 @@
+D:\Visual Studio Code\EmployeeReg\obj\Debug\EmployeeReg.esproj.SuggestedBindingRedirects.cache
+D:\Visual Studio Code\EmployeeReg\obj\Debug\EmployeeReg.esproj.CoreCompileInputs.cache
